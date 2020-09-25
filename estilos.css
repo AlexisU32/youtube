@@ -1,0 +1,37 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    color: #000;
+}
+
+.contenedor {
+    width: 100%;
+    min-height: 100vh;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 70% auto;
+    grid-template-rows: 60px auto;
+    grid-template-areas: "header header"
+                         "main menu";
+}
+
+.header {
+    grid-area: header;
+    background: #fff;
+}
+
+.menu-lateral {
+    background: #ccc;
+}
+
+.main {
+    background: #414141;
+}
