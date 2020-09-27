@@ -17,7 +17,7 @@ a {
     min-height: 100vh;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: 70% auto;
+    grid-template-columns: 71% auto;
     grid-template-rows: 60px auto;
     grid-template-areas: "header header"
                          "contenido menu";
@@ -149,7 +149,83 @@ a {
 
 .menu-lateral {
     grid-area: contenido;
-    background: #ccc;
+    display: grid;
+    grid-template-rows: 550px auto;
+    grid-template-areas: "video" "info";
+    background: #f9f9f9;
+    padding: 25px;
+}
+
+.menu-lateral .video {
+    grid-area: video;
+}
+
+.menu-lateral .info {
+    grid-area: info;
+    margin-top: 20px;
+
+}
+
+.menu-lateral .info .arriba {
+    display: grid;
+    width: 100%;
+    height: 90px;
+    grid-template-rows: 15px 40px 35px;
+    grid-template-areas: "tendencia" "titulo" "likes";
+}
+
+.menu-lateral .info .arriba .tendencia {
+    grid-area: tendencia;
+    width: 100%;
+    font-size: 12px;
+    color: #065fd4;
+    padding: 1px 3px;
+}
+
+.menu-lateral .info .arriba .titulo {
+    grid-area: titulo;
+    width: 100%;
+    padding: 8px 3px;
+    font-family: serif;
+    
+}
+
+.menu-lateral .info .arriba .likes {
+    grid-area: likes;
+    width: 100%;
+    color: #747474;
+    padding-top: 15px;
+    padding-left: 3px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    
+}
+.menu-lateral .info .abajo {
+    display: grid;
+    width: 100%;
+    height: 50px;
+    justify-content: right;
+
+}
+
+.menu-lateral .info .abajo button {
+    width: 100px;
+    height: 35px;
+    background: #CC0000;
+    color: #fff;
+    border: none;
+    border-radius: 2px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif, bold;
+    font-size: 12px;
+    cursor: pointer;
+    
+}
+
+
+.menu-lateral .info hr{
+    margin: 10px;
+    color: #ccc;
+
 }
 
 .main {
