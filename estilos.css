@@ -285,21 +285,19 @@ a {
 
 .main .sugeridos{
     display: grid;
-    border: 1px solid #000;
     padding: 4px;
     margin-top: 8px;
     grid-template-columns: auto;
-    grid-template-rows: 117px 117px 117px 117px 117px 117px;
-    grid-template-areas: "sug_0" "sug_1" "sug_2" "sug_3" "sug_4" "sug_5" ;
+    grid-template-rows: 117px 117px 117px 117px 117px 117px 117px;
+    grid-template-areas: "sug_0" "sug_1" "sug_2" "sug_3" "sug_4" "sug_5" "sug_6" ;
 
 }
 /* sug */
 .main .sugeridos .sug_0 {
     display: grid;
     grid-area: sug_0;
-    background: #3f51b5;
     margin-bottom: 8px;
-    grid-template-columns: 170px auto;
+    grid-template-columns: 160px auto;
     grid-template-rows: 109px;
     grid-template-areas: "video texto";
 
@@ -308,23 +306,36 @@ a {
 .main .sugeridos .sug_0 .videos {
     grid-area: video;
     display: grid;
-    border: 1px solid #000;
 
 }
 
 .main .sugeridos .sug_0 .text {
     grid-area: texto;
     display: grid;
-    border: 1px solid #000;
+    padding: 5px;
 }
+
+.main .sugeridos .sug_0 .text h5{
+    color: #000;
+    font-size: 12px;
+    height: 35px;
+    font-family: 'Lato', sans-serif;
+    margin-top: 0px;
+}
+
+.main .sugeridos .sug_0 .text h6 {
+    color: #747474;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+}
+
 
 /* sug */
 .main .sugeridos .sug_1 {
     display: grid;
     grid-area: sug_1;
-    background: #747474;
     margin-bottom: 8px;
-    grid-template-columns: 170px auto;
+    grid-template-columns: 160px auto;
     grid-template-rows: 109px;
     grid-template-areas: "video texto";
 }
@@ -332,23 +343,36 @@ a {
 .main .sugeridos .sug_1 .videos {
     grid-area: video;
     display: grid;
-    border: 1px solid #000;
+    
 
 }
 
 .main .sugeridos .sug_1 .text {
     grid-area: texto;
     display: grid;
-    border: 1px solid #000;
+    padding: 5px;
+}
+
+.main .sugeridos .sug_1 .text h5{
+    color: #000;
+    font-size: 12px;
+    height: 35px;
+    font-family: 'Lato', sans-serif;
+    margin-top: 0px;
+}
+
+.main .sugeridos .sug_1 .text h6 {
+    color: #747474;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
 }
 
 /* sug */
 .main .sugeridos .sug_2 {
     display: grid;
-    grid-area: sug_2;
-    background: #3f51b5;   
+    grid-area: sug_2; 
     margin-bottom: 8px;
-    grid-template-columns: 170px auto;
+    grid-template-columns: 160px auto;
     grid-template-rows: 109px;
     grid-template-areas: "video texto";
 }
@@ -356,23 +380,36 @@ a {
 .main .sugeridos .sug_2 .videos {
     grid-area: video;
     display: grid;
-    border: 1px solid #000;
+    
 
 }
 
 .main .sugeridos .sug_2 .text {
     grid-area: texto;
     display: grid;
-    border: 1px solid #000;
+    padding: 5px;
+}
+
+.main .sugeridos .sug_2 .text h5{
+    color: #000;
+    font-size: 12px;
+    height: 35px;
+    font-family: 'Lato', sans-serif;
+    margin-top: 0px;
+}
+
+.main .sugeridos .sug_2 .text h6 {
+    color: #747474;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
 }
 
 /* sug */
 .main .sugeridos .sug_3 {
     display: grid;
     grid-area: sug_3;
-    background: #747474;
     margin-bottom: 8px;
-    grid-template-columns: 170px auto;
+    grid-template-columns: 160px auto;
     grid-template-rows: 109px;
     grid-template-areas: "video texto";
 }
@@ -380,23 +417,35 @@ a {
 .main .sugeridos .sug_3 .videos {
     grid-area: video;
     display: grid;
-    border: 1px solid #000;
 
 }
 
 .main .sugeridos .sug_3 .text {
     grid-area: texto;
     display: grid;
-    border: 1px solid #000;
+    padding: 5px;
+}
+
+.main .sugeridos .sug_3 .text h5{
+    color: #000;
+    font-size: 12px;
+    height: 35px;
+    font-family: 'Lato', sans-serif;
+    margin-top: 0px;
+}
+
+.main .sugeridos .sug_3 .text h6 {
+    color: #747474;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
 }
 
 /* sug */
 .main .sugeridos .sug_4 {
     display: grid;
     grid-area: sug_4;
-    background: #3f51b5;
     margin-bottom: 8px;
-    grid-template-columns: 170px auto;
+    grid-template-columns: 160px auto;
     grid-template-rows: 109px;
     grid-template-areas: "video texto";
 }
@@ -404,23 +453,35 @@ a {
 .main .sugeridos .sug_4 .videos {
     grid-area: video;
     display: grid;
-    border: 1px solid #000;
 
 }
 
 .main .sugeridos .sug_4 .text {
     grid-area: texto;
     display: grid;
-    border: 1px solid #000;
+    padding: 5px;
+}
+
+.main .sugeridos .sug_4 .text h5{
+    color: #000;
+    font-size: 12px;
+    height: 35px;
+    font-family: 'Lato', sans-serif;
+    margin-top: 0px;
+}
+
+.main .sugeridos .sug_4 .text h6 {
+    color: #747474;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
 }
 
 /* sug */
 .main .sugeridos .sug_5 {
     display: grid;
     grid-area: sug_5;
-    background: #747474;
     margin-bottom: 8px;
-    grid-template-columns: 170px auto;
+    grid-template-columns: 160px auto;
     grid-template-rows: 109px;
     grid-template-areas: "video texto";
 }
@@ -428,15 +489,63 @@ a {
 .main .sugeridos .sug_5 .videos {
     grid-area: video;
     display: grid;
-    border: 1px solid #000;
 
 }
 
 .main .sugeridos .sug_5 .text {
     grid-area: texto;
     display: grid;
-    border: 1px solid #000;
-    border-left: none;
+    padding: 5px;
+}
+
+.main .sugeridos .sug_5 .text h5{
+    color: #000;
+    font-size: 12px;
+    height: 35px;
+    font-family: 'Lato', sans-serif;
+    margin-top: 0px;
+}
+
+.main .sugeridos .sug_5 .text h6 {
+    color: #747474;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+}
+
+/* sug */
+.main .sugeridos .sug_6 {
+    display: grid;
+    grid-area: sug_6;
+    margin-bottom: 8px;
+    grid-template-columns: 160px auto;
+    grid-template-rows: 109px;
+    grid-template-areas: "video texto";
+}
+
+.main .sugeridos .sug_6 .videos {
+    grid-area: video;
+    display: grid;
+
+}
+
+.main .sugeridos .sug_6 .text {
+    grid-area: texto;
+    display: grid;
+    padding: 5px;
+}
+
+.main .sugeridos .sug_6 .text h5{
+    color: #000;
+    font-size: 12px;
+    height: 35px;
+    font-family: 'Lato', sans-serif;
+    margin-top: 0px;
+}
+
+.main .sugeridos .sug_6 .text h6 {
+    color: #747474;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
 }
 
 
